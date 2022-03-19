@@ -1,10 +1,10 @@
 .card-pokemon {
+   display: none;
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
    border-radius: 10px;
 }
 
 .card-pokemon .card-topo {
-    background-color: red;
     padding: 30px 40px 0;
 }
 
@@ -26,4 +26,71 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card-pokemon .card-image {
+    width: 350px;
+    height: 350px;
+}
+
+.card-pokemon img {
+    max-width: 100%;
+}
+
+.card-pokemon .card-information {
+   display: flex;
+   justify-content: space-between;
+   background-color: #ffff; 
+   padding: 80px 30px 50px;
+   margin-top: -70px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+
+.card-pokemon .card-information h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.card-pokemon .card-information .status,
+.card-pokemon .card-information .skills {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.card-pokemon .card-information .skills ul li,
+.card-pokemon .card-information .status ul li {
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.card-pokemon.open {
+    display: block;
+}
+
+.electric-type {
+    background-color: #fcc719;
+}
+
+.grass-type {
+    background-color: #49d0b0;
+}
+
+.water-type {
+  background-color: #76befe;
+}
+
+.fire-type {
+    background-color: #ed8a8b;
+}
+
+.type-darkness {
+    background-color: #ba68c8;
+}
+
+.type-dragon {
+    background-color: #c29791;
 }
