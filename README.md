@@ -10,6 +10,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+- Informações de status retiradas do site [pokemondb.net](https://pokemondb.net/pokedex/pikachu)
 
 - Informações de status retiradas do site [pokemondb.net](https://pokemondb.net/pokedex/pikachu)
 
